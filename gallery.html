@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pavanam&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav id="navBar">
+      <div class="navContent">
+        <div class="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="navLogo">
+          <h2 class="logo">EDUBALL ACADEMY</h2>
+        </div>
+        <ul class="navList">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="director.html" class="nav-item">Directors</a></li>
+          <li><a href="program.html" class="nav-item">Program</a></li>
+          <li><a href="gallery.html" class="nav-item" >Gallery</a></li>
+          <li><a href="contact.html" class="nav-item">Contact Us</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- Timeline begins -->
+<section class="max-w-7xl mx-auto py-16 px-6">
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Gallery</h2>
+    <div class="flex flex-col md:flex-row">
+        <!-- Sidebar Pagination -->
+        <div class="md:w-1/4 mb-6 md:mb-0">
+            <h3 class="text-xl font-semibold text-gray-700 mb-4">Timeline</h3>
+            <ul class="space-y-4">
+                <li><a href="#age-group-1" class="text-blue-500 hover:underline">2022</a></li>
+                <li><a href="#age-group-2" class="text-blue-500 hover:underline">2023</a></li>
+                <li><a href="#age-group-3" class="text-blue-500 hover:underline">2024</a></li>
+            </ul>
+        </div>
+        
+        <!-- Gallery Content -->
+        <div class="md:w-3/4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+            <!-- Childhood Section -->
+            <div id="age-group-1">
+                <h3 class="text-2xl font-semibold text-gray-700 mb-4">2022</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="./assets/images/eduball-img-10.webp" alt="Childhood Image 1" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/eduball-img-7.webp" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/eduball-img-8.webp" alt="Childhood Image 2" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/home-img.jpg" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+                </div>
+            </div>
+            
+            <!-- Teenage Years Section -->
+            <div id="age-group-2">
+                <h3 class="text-2xl font-semibold text-gray-700 mb-4">2023</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="./assets/images/eduball-img-6.webp" alt="Teenage Image 1" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/img5.png" alt="Teenage Image 2" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/img3.png" alt="Teenage Image 2" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/img2.png" alt="Teenage Image 2" class="rounded-lg shadow-md w-full">
+                </div>
+            </div>
+            
+            <!-- Adulthood Section -->
+            <div id="age-group-3">
+                <h3 class="text-2xl font-semibold text-gray-700 mb-4">2024</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="./assets/images/eduball-img-11.webp" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/eduball-img-7.webp" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/eduball-img-4.webp" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+                    <img src="./assets/images/eduball-img-6.webp" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+            </div>
+        </div>
+        <div id="age-group-3">
+            <h3 class="text-2xl font-semibold text-gray-700 mb-4">2025</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <img src="./assets/images/eduball-img-1.jpg" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+                <img src="./assets/images/eduball-img-2.jpg" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+                <img src="./assets/images/eduball-img-3.jpg" alt="EDUBALL IMAGE 1" class="rounded-lg shadow-md w-full">
+        </div>
+    </div>
+    </div>
+    
+
+</section>
+<!--Timeline ends -->
+  
+<footer>
+    <div class="footer-content">
+        <h3>EDUBALL ACADEMY</h3>
+        <p>Connecting people through education and sports.</p>
+        <div class="socials">
+            <a href="https://www.tiktok.com/@eduballacademy" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://x.com/EduballAcademy" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/eduballacademy/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@EduballAcademyLimited" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/eduball-academy/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 EDUBALL ACADEMY. All rights reserved.</p>
+    </div>
+</footer>
+
+  </body>
+  </html>
